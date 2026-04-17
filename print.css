@@ -1,0 +1,132 @@
+/* Luis K. Gonzalez 12/5/21 Print Page */
+
+/*aligns the headers for printing with a 1em font size and bold font*/
+header {
+	text-align: center;
+	font-size: 1em;
+	font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif';
+	margin-top: 1px;
+	font-weight: bold;
+}
+
+h4 {
+	text-align: center;
+	clear: both;
+}
+
+nav {
+	text-align: center;
+	font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif';
+	clear: both;
+	text-decoration: none;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 1;
+	padding-left: 1em;
+	font-size: 1em;
+}
+
+nav li {
+	display: inline;
+	padding-left: 3em;
+}
+
+footer {
+	font-size: small;
+	text-align: center;
+	margin-bottom: 1px;
+	font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+	clear: both;
+}
+
+caption {
+	font-weight: bolder;
+	margin-bottom: 3px;
+	font-size: 1.2em;
+}
+
+table {
+	border: 2px solid black;
+	border-collapse: collapse;
+	float: right;
+	width: 30%;
+	margin-right: 5em;
+	margin-left: 5em;
+	margin-bottom: 8em;
+}
+
+td,th {
+	border: 2px solid black;
+	text-align: center;
+	padding: 3px;
+}
+
+th {
+	font-weight: bold;
+}
+
+/*This wrapper aligns everything in the middle for printing*/
+#wrapper {
+	margin-left: auto; margin-right: auto;
+	text-align: left;
+	width: 85%;
+	padding: 5px;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	background-color: ghostwhite;
+	border-style: solid;
+	border-width: 1px;
+	display: block;
+}
+
+/*Phone Media Query for printing*/
+@media (max-width: 600px) {
+	nav li{
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: flex-end;
+		text-align: center;
+		width: 10%; 
+	}
+	table {
+		margin-right: 2em;
+		margin-bottom: 2em;
+		
+	}
+	.column {
+		width: 100%;
+		text-align: center;
+		
+	}
+	.column2 {
+		width: 100%;
+		text-align: center;
+	}
+}
+/*Tablet Media Query for printing*/
+@media (max-width: 768px) {
+	nav li{
+		display: inline;
+		flex-flow: row nowrap;
+		justify-content: flex-end;
+		text-align: center;
+		width: 100%; 
+	}
+	table {
+		margin-right: 9em;
+		margin-bottom: 2em;
+		
+	}
+	.column {
+		width: 100%;
+		text-align: center;
+		
+	}
+	.column2 {
+		width: 100%;
+		text-align: center;
+	}
+}
+

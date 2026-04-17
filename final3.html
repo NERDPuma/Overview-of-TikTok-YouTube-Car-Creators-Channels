@@ -1,0 +1,103 @@
+<!doctype html>
+<!--Luis K. Gonzalez 12/5/21 Form Page-->
+<html lang="en">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="styles.css" media="screen">
+	<link rel="stylesheet" href="print.css" media="print">
+	<title>How to make money on TikTok &amp; YouTube as a car enthusiast</title>
+	<style>
+		/*This makes the form look more like a form*/
+		form {
+			display: block;
+			flex-direction: column;
+			font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+			margin: 5px;
+			padding: 5px;
+			width: 100%;
+		}
+		label {
+			font-weight: bold;
+		}
+		/*All of these change the width of the textboxes for each one*/
+		input[type="submit"], input[type="reset"] {
+			width: 20%;
+			margin: 1px;
+			padding: 1px;
+			
+		}
+		input[type="text"], input[type="email"], input[type="phone"], input[type="date"]{
+			width: 50%;
+		}
+		textarea {
+			width: 50%;
+		}
+		select {
+			width: 30%;
+		}
+	</style>
+	<div id="wrapper">
+	<nav>
+		<ul>
+			<li><a href="final1.html">Overview</a></li>
+			<li><a href="final2.html">Find Out More</a></li>
+			<li><a href="final3.html">Contact Us</a></li>
+			<li><a href="final4.html">Credits</a></li>
+			<li><a href="final5.html">Course Objectives</a></li>
+		</ul>
+	</nav>
+	<header>
+		<h1>Contact Page</h1>
+	</header>
+	<main>
+		<div id="contact"></div>
+		<div class="column">
+		<h2>Contact Us</h2>
+			<p>Required fields are marked with an asterisk *</p>
+		<form name="sample" method="post" id="sample" action="demo.php">
+			<label>* Name:</label>
+				<input type="text" id="myName" name="myName" for="myName" required="required"><br><br>
+			<label>* E-mail:</label>
+				<input type="email" id="myEmail" name="myEmail" for="myEmail" required="required"><br><br>
+			<label>* Phone:</label>
+				<input type="phone" id="myPhone" name="myPhone" for="myPhone" required="required"><br><br>
+			<label for="myDate">When were you born?</label><br>
+				<input type="date" name="myDate" id="myDate"><br><br>
+			<label>* How would you like for us to contact you back? (Check all that apply):</label><br>
+				<input type="checkbox" name="Option1" id="Option1" value="yes">By Phone<br>
+				<input type="checkbox" name="Option2" id="Option2" value="yes"> By Text Message<br>
+				<input type="checkbox" name="Option3" id="Option3" value="yes">By Email<br><br>
+			<label>How did you find us?:</label><br>
+				<select size="1" name="optionlist" id="optionlist">
+					<option>Web Search</option>
+					<option>Friend or relative</option>
+					<option>Ad</option>
+				</select><br><br>
+			<label>* Do you believe the information on this website was useful?:</label><br>
+				<input type="radio" name="Option1" id="radio1" value="yes">Yes<br>
+				<input type="radio" name="Option=2" id="radio2" value="no">No<br><br>
+			<label>Additional Comments?:</label><br>
+				<textarea id="myComments" name="myComments" rows="2" cols="10" for="myComments" placeholder="..."></textarea><br><br>
+			<input type="reset" value="Reset">
+			
+			<input type="submit" value="Submit">
+		</form>
+		</div>
+	</main>
+		<div id="thanks"></div>
+		<br>
+	<footer>
+		Copyright &copy; 2021 Luis K. Gonzalez<br>
+		<a href="mailto:lgonza39@stumail.jccc.edu">Contact Me</a>
+	</footer>
+	<nav>
+		<ul>
+			<li><a href="final1.html">Overview</a></li>
+			<li><a href="final2.html">Find Out More</a></li>
+			<li><a href="final3.html">Contact Us</a></li>
+			<li><a href="final4.html">Credits</a></li>
+			<li><a href="final5.html">Course Objectives</a></li>
+		</ul>
+	</nav>
+	</div>
+</html>

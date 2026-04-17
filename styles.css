@@ -1,0 +1,351 @@
+/* Luis K. Gonzalez 12/5/21 Styles Page */
+
+/*The CSS3 style, for flexboxes*/
+*{
+	box-sizing: content-box;
+}
+/*changes the background color to indian red*/
+html {
+	background-color: indianred;
+}
+/*Centers all the headers, bolds them, makes font size 1em, moves the top margin by 1px*/
+header {
+	text-align: center;
+	font-size: 1em;
+	font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif';
+	margin-top: 1px;
+	color: black;
+	font-weight: bold;
+}
+
+h2 {
+	color: darkred;
+}
+
+h3 {
+	color: black;
+	font-weight: bold;
+}
+/*makes the h3 links have no line under them and makes the text color black*/
+h3 a {
+	text-decoration: none;
+	color: black;
+}
+/*hover over an h3 link and it turns darkred*/
+h3 a:hover {
+	color: darkred;
+}
+
+h4 {
+	color: black;
+	text-align: center;
+	clear: both;
+}
+/*makes the h4 link have no line under it and makes the text color black*/
+h4 a {
+	text-decoration: none;
+	color: black;
+}
+/*hover over an h4 link it turn darkred*/
+h4 a:hover {
+	color: darkred;
+}
+/*removes the line under all the links and makes the text color darkred*/
+a {
+	text-decoration: none;
+	color: darkred;
+}
+/*hover over a link and it makes the text color black*/
+a:hover {
+	color: black;
+}
+/*Centers the nav, bolds it and clears it from anything at the top*/
+nav {
+	text-align: center;
+	font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif';
+	font-weight: bold;
+	clear: both;
+}
+/*deletes the line under the nav*/
+nav a {
+	text-decoration: none;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 1;
+	padding-left: 1em;
+	font-size: 1em;
+}
+/*makes the nav display in a straight line*/
+nav li {
+	display: inline;
+	padding-left: 3em;
+}
+/*changes the font size of the footer to small, centers it, and clears it from anything at the bottom*/
+footer {
+	font-size: small;
+	text-align: center;
+	font-style: oblique;
+	margin-bottom: 1px;
+	font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+	color: black;
+	clear: both;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+caption {
+	font-weight: bolder;
+	margin-bottom: 3px;
+	font-size: 1.2em;
+}
+/*Makes the tables have a 2px solid black border, that floats right and has a width of 30%*/
+table {
+	border: 2px solid black;
+	border-collapse: collapse;
+	float: right;
+	width: 30%;
+	margin-right: 5em;
+	margin-left: 5em;
+}
+/*the table data and table headings have a 2px solid black border and is center aligned*/
+td,th {
+	border: 2px solid black;
+	text-align: center;
+	padding: 3px;
+}
+/*the table headings are bolded, and are indianred in color*/
+th {
+	font-weight: bold;
+	color: indianred;
+}
+/*this wrapper centers everything, has a width of 85%, ghostwrite background color, and has a 1px solid black border*/
+#wrapper {
+	margin-left: auto; margin-right: auto;
+	text-align: left;
+	width: 85%;
+	padding: 5px;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	background-color: ghostwhite;
+	border-style: solid;
+	border-width: 1px;
+	display: block;
+}
+/*this id centers the image, makes the image have a 1px solid black border, has a width of 375px and a height of 150px*/
+#youtok {
+	background-image: url("youtube&tiktok.jpg");
+	background-size: 100% 100%;
+	height: 150px;
+	width: 375px;
+	margin-left: auto; margin-right: auto;
+	margin-bottom: 1em;
+	border: 1px solid black;
+}
+/*this id floats the image to the right, has a .5px solid black border with a width of 275px and a height of 200px*/
+#mbags {
+	background-image: url("moneybags.jpg");
+	background-size: 100% 100%;
+	float: right;
+	height: 200px;
+	width: 275px;
+	margin-right: 5em;
+	margin-top: 10em;
+	border: 0.5px solid black;
+}
+/*this id floats the image to the right, has a 1px solid black border with a width of 300px and a height of 200px*/
+#seo {
+	background-image: url("seo.jpg");
+	background-size: 100% 100%;
+	float: right;
+	height: 200px;
+	width: 300px;
+	margin-right: 4em;
+	margin-top: 7em;
+	border: 1px solid black;
+}
+/*this id floats the image to the right, has a .5px solid black border with a width of 300px and a height of 200px*/
+#contact {
+	background-image: url("contact.jpg");
+	background-size: 100% 100%;
+	float: right;
+	height: 200px;
+	width: 300px;
+	margin-right: 5em;
+	margin-top: 4em;
+	border: 0.5px solid black;
+}
+/*this id floats the image to the right, has a .5px solid black border with a width of 300px and a height of 200px*/
+#thanks {
+	background-image: url("thanks.jpg");
+	background-size: 100% 100%;
+	height: 200px;
+	width: 300px;
+	float: right;
+	margin-right: 5em;
+	margin-top: 5em;
+	border: 0.5px solid black;
+}
+/*this id centers the image, has a .5px solid black border with a width of 500px and a height of 150px*/
+#help {
+	background-image: url("help.jpg");
+	background-size: 100% 100%;
+	margin-left: auto; margin-right: auto;
+	border: 0.5px solid black;
+	width: 500px;
+	height: 150px;
+}
+/*this id makes the image have a width of 275px and a height of 200px*/
+#class {
+	background-image: url("classimage.png");
+	background-size: 100% 100%;
+	height: 200px;
+	width: 275px;
+}
+/*this id centers the image, has a .5px solid black border with a width of 350px and a height of 150px*/
+#jccc {
+	background-image: url("jccc.png");
+	background-size: 100% 100%;
+	height: 150px;
+	width: 350px;
+	margin-left: auto; margin-right: auto;
+	border: 0.5px solid black;
+}
+/*this class makes text float left, and have a width of 50%*/
+.column {
+	float: left;
+	display: block;
+	width: 50%;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+/*this class makes text float right, and have a width of 35%*/
+.column2 {
+	float: right;
+	display: block;
+	width: 35%;
+	margin-right: 3px;
+	margin-bottom: 2em;
+}
+/*this class makes the first table float right and have a width of 40%*/
+.table1 {
+	float: right;
+	display: block;
+	width: 40%;
+	margin-top: 7em;
+}
+/*this class makes the second table float right and have a width of 40%*/
+.table2 {
+	float: right;
+	display: block;
+	width: 40%;
+	margin-top: 5em;
+}
+/*Phone Media Query, device can only have a maximum width of 600px*/
+@media (max-width: 600px) {
+	/*makes nav display with a width of 10% and is center aligned*/
+	nav li{
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: flex-end;
+		text-align: center;
+		width: 10%; 
+	}
+	table {
+		margin-right: 2em;
+		margin-bottom: 2em;
+		
+	}
+	#youtok {
+		margin-top: 4em;
+	}
+	#seo {
+		margin-top: 2em;
+		width: 70%;
+	}
+	#mbags {
+		margin-top: 5em;
+		margin-bottom: 2em;
+		width: 60%;
+	}
+	#help {
+		margin-right: 5em;
+		width: 100%;
+	}
+	#contact {
+		margin-top: 3em;
+		widows: 50%;
+		margin-right: 3em;
+	}
+	#thanks {
+		margin-top: 2em;
+		margin-bottom: 2em;
+		width: 60%;
+	}
+	.column {
+		width: 80%;
+		text-align: center;
+		
+	}
+	.column2 {
+		width: 100%;
+		text-align: center;
+	}
+}
+/*Tablet Media Query, device can only have a maximum width of 768px*/
+@media (max-width: 768px) {
+	/*makes nav display with a width of 100%, is center aligned, and displays the nav in a line*/
+	nav li{
+		display: inline;
+		flex-flow: row nowrap;
+		justify-content: flex-end;
+		text-align: center;
+		width: 100%; 
+	}
+	table {
+		margin-right: 9em;
+		margin-bottom: 2em;
+		
+	}
+	#youtok {
+		margin-top: 4em;
+	}
+	#seo {
+		margin-top: 2em;
+		width: 75%;
+	}
+	#mbags {
+		margin-top: 5em;
+		margin-bottom: 2em;
+		width: 70%;
+	}
+	#help {
+		margin-right: 5em;
+		width: 100%;
+	}
+	#contact {
+		margin-top: 3em;
+		widows: 50%;
+		margin-right: 10em;
+	}
+	#thanks {
+		margin-top: 2em;
+		margin-bottom: 2em;
+		width: 70%;
+	}
+	#class {
+		width: 100%;
+	}
+	.column {
+		width: 90%;
+		text-align: center;
+		
+	}
+	.column2 {
+		width: 100%;
+		text-align: center;
+	}
+}
